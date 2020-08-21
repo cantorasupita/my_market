@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Выравнивание по центру</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://use.fontawesome.com/95d255ce1f.js"></script>
+</head>
+<body>
+  
+<section>
+
+
+
+  <div class="modal__cart">
+    <div class="modal__cart-content">
+      <header>
+        <b>Сума - </b><span class="cart__suma">0 </span> гр
+      </header>
+
+      <section class="cart_section">
+       
+          <div class="cart__items">
+            <div class="cart__items-item">
+              <div><a href="#"><img src="img/1.jpg"></a></div>
+              <div>
+                  <h4><a href="#"></a>YAMAHA RGX 121Z</a></h4>
+              </div>
+              <div>
+                <button>+</button>
+                <span>0</span>
+                <button>-</button>
+              </div>
+              <div class="price__cart"><b>Цена - </b><span>6 291 грн.</span></div>
+              <div><button><i class="fa fa-trash fa-2x" aria-hidden="true"></i></button></div>
+            </div>
+          </div>
+
+   
+          
+      </section>
+
+      <span class="modal_close">X</span>
+    </div>
+  </div>  
+
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-11">
+          <div>
+            <button type="button">Поиск</button>
+            <input type="search">
+          </div>
+        </div>
+        <div class="col-1">
+          <a href="#" class="cart"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i><span>0</span></a>
+        </div>
+      </div>
+    </div>  
+  </header>
+  
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-3">
+        <div class="left__sidebar">
+            <div class="diapazon__price">
+
+              <h4>Цена</h4>
+              <div>
+                <input type="text" data-min="1" class="diapazon__price-inp">
+                <input type="text" data-max="100"  class="diapazon__price-inp">
+                <input type="range" min="1" max="100"  class="diapazon__price-range">
+              </div>
+            </div>
+
+            <hr>
+            <div class="sile">
+              <h4>Акции</h4>
+                  <input class="saleCheck" type="checkbox">
+            </div>
+
+            <hr>
+            <div class="min__max-price">
+              <h4>от  дешових до дорогих</h4>
+                  <input class="minMax__price" type="checkbox">
+            </div>
+
+            <hr>
+            <div class="max__min-price">
+              <h4>от дорогих до дешевих</h4>
+                <input class="maxMin__price" type="checkbox">   
+            </div>
+        </div>
+      </div>
+
+      <div class="col-9">
+        <div class="content">
+          <div class="row items">
+
+            
+<!-- item ----------------------------------------------------- -->
+
+           <!--
+
+            <div class="col-4">
+              <div class="item">
+                <div><a href="#"><img src="img/1.jpg"></a></div>
+                <h4><a href="#">YAMAHA RGX 121Z</a></h4>
+                <div class="price__gitar"><span>6 291 грн.</span></div>
+                <div class="in__stock-gitar"><span>В наличии</span></div>
+                <div class="buy"><button type="button">купить</button></div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="item">
+                <div><a href="#"><img src="img/1.jpg"></a></div>
+                <h4><a href="#">YAMAHA RGX 121Z</a></h4>
+                <div class="price__gitar"><span>6 291 грн.</span></div>
+                <div class="in__stock-gitar"><span>В наличии</span></div>
+                <div class="buy"><button type="button">купить</button></div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="item">
+                <div><a href="#"><img src="img/1.jpg"></a></div>
+                <h4><a href="#">YAMAHA RGX 121Z</a></h4>
+                <div class="price__gitar"><span>6 291 грн.</span></div>
+                <div class="in__stock-gitar"><span>В наличии</span></div>
+                <div class="buy"><button type="button">купить</button></div>
+              </div>
+            </div>
+           -->
+
+            
+            
+           
+
+  
+          <!-- END item ----------------------------------------------------- -->
+           
+          
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="scripts/vender/Sumator.js"></script>
+<script src="scripts/vender/localStor.js"></script>
+
+<script src="scripts/components/modal/modal.js"></script>
+<script src="scripts/components/products/products.js"></script>
+<script src="scripts/components/cart/cart.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

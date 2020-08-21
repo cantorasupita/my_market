@@ -1,0 +1,41 @@
+{
+    "items":[
+        {
+            "id": "001",
+            "name": "YAMAHA RGX 121Z",
+            "category":"gitars",
+            "price": 6291,
+            "InStock": true,
+            "sale": true,
+            "img": "1.jpg"
+        },
+        {
+            "id": "002",
+            "name":"SUPITA RGX 121Z",
+            "category":"gitars",
+            "price": 449100,
+            "InStock": false,
+            "sale": false,
+            "img": "2.jpg"
+        },
+        {
+            "id": "003",
+            "name": "KATANA RGX 121Z",
+            "category": "gitars",
+            "price": 391,
+            "InStock": true,
+            "sale": true,
+            "img": "3.jpg"
+        },
+        {
+            "id": "004",
+            "name": "KULA Aaa 13Z",
+            "category": "gitars",
+            "price": 13391,
+            "InStock": true,
+            "sale": false,
+            "img": "4.jpg"
+        }
+    ]
+}
+   
